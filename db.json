@@ -1,10 +1,87 @@
 {
-  "teacher": {
+  "Students": [
+    { "id": 1, "name": "Airi Satou", "position": "Accountant", "office": "Tokyo", "age": "33", "startdate": "2008/11/28", "salary": "$162,700" },
+
+    {
+      "id": 2,
+      "step": 8,
+      "studentUPN": "12345",
+      "profilePic": "",
+      "yearGroup": "7",
+      "firstName": "Wayne",
+      "lastName": "Hewitt",
+      "ealAssessor": "",
+      "dob": "06022008",
+      "countryBirth": "",
+      "gender": "Male",
+      "interpereterFullName": "",
+      "arrivedInUK": "",
+      "ealAssessmentDate": "",
+      "immigrationStatus": "",
+      "previousHostCountry": "",
+      "spacialCircumstance": "",
+      "ethnicOrigin": "White British",
+      "ethnicOriginOther": "",
+      "religion": "Jedi",
+      "classRoom": "AG019",
+      "nativeLang": "French",
+      "religionOther": ""}
+  ],
+  "Siblings": [
+    {
+      "id": 1,
+      "supn_id": "25671",
+      "fName": "James",
+      "lName": "Jones",
+      "age": 15,
+      "school": false,
+      "whatSchool": "",
+      "inSameSchool": true,
+      "sameSchool": "Mosley",
+      "education": false,
+      "studying": "",
+      "work": false,
+      "typeOfWork": ""
+    }
+  ],
+  "SpokenLanguages": {
+    "supn_id": "25671",
+    "langStatus": "",
+    "studentIs": "",
+    "Languages": [
+      {
+        "id": 1,
+        "language": "English",
+        "speaking": "Some",
+        "reading": "Some",
+        "writing": "Some"
+      }
+    ]
+  },
+  "MigrantHistory": [],
+  "Hobbies": [],
+  "Users" : [
+    {
     "id": 1,
-    "user": "admin",
+    "username": "admin",
     "firstName": "Wayne",
-    "lastName": "Hewitt",
+    "lastName": " Hewitt",
     "password": "123456",
-    "email": "admin@wall.eduucation"
-  }
+    "school": "Mosley",
+    "email": "admin@wall.education",
+    "registered": "28/10/2022",
+    "service": "paid"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "firstName": "Luba",
+      "lastName": " Hewitt",
+      "password": "123456",
+      "school": "Mosley",
+      "email": "luba@wall.education",
+      "registered": "28/10/2022",
+      "service": "paid"
+      }
+  ]
 }
